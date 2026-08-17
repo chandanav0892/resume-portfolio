@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandana V - Resume</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #f3f3f3;
+      color: #111;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    body {
+      padding: 20px 0;
+    }
+
+    .resume {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 12mm 11mm 10mm;
+      background: #fff;
+      box-shadow: 0 0 12px rgba(0,0,0,.08);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      position: relative;
+      text-align: center;
+      padding-bottom: 8px;
+    }
+
+    .name {
+      margin: 0;
+      font-size: 31px;
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: .3px;
+    }
+
+    .role {
+      margin: 7px 0 5px;
+      font-size: 21px;
+      line-height: 1.18;
+      font-weight: 700;
+    }
+
+    .contact {
+      margin: 0;
+      font-size: 15.8px;
+      line-height: 1.25;
+      font-weight: 700;
+    }
+
+    .contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .header-icons {
+      position: absolute;
+      right: 0;
+      top: -1px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .icon-link {
+      width: 29px;
+      height: 29px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    .linkedin {
+      background: #0a66c2;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      border-radius: 2px;
+      line-height: 1;
+    }
+
+    .portfolio-icon {
+      color: #111;
+      border: 1.6px solid #111;
+      border-radius: 50%;
+    }
+
+    .portfolio-icon svg {
+      width: 20px;
+      height: 20px;
+      display: block;
+    }
+
+    .top-rule {
+      border: none;
+      border-top: 1.3px solid #222;
+      margin: 10px 0 5px;
+    }
+
+    .section {
+      margin-top: 10px;
+    }
+
+    .section-title {
+      margin: 0 0 4px;
+      font-size: 19.5px;
+      line-height: 1.08;
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14.6px;
+      line-height: 1.24;
+    }
+
+    .skills p {
+      line-height: 1.18;
+    }
+
+    .skills strong {
+      font-weight: 700;
+    }
+
+    .company,
+    .position,
+    .client,
+    .degree {
+      margin: 0;
+      font-size: 14.6px;
+      line-height: 1.24;
+      font-weight: 700;
+    }
+
+    .position { margin-top: 2px; }
+    .client { margin-top: 2px; }
+
+    ul {
+      margin: 3px 0 6px 24px;
+      padding-left: 17px;
+    }
+
+    li {
+      margin: 0 0 3px;
+      padding-left: 1px;
+      font-size: 14.6px;
+      line-height: 1.24;
+    }
+
+    .education-block {
+      margin-bottom: 10px;
+    }
+
+    .education-line {
+      margin-top: 3px;
+      font-size: 14.6px;
+      line-height: 1.22;
+      font-style: italic;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    .certifications ul {
+      margin-top: 2px;
+    }
+
+    .certifications li {
+      font-weight: 700;
+    }
+
+
+    .resume-footer {
+      padding-top: 10px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .resume-footer a {
+      color: #111;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .resume-footer .download-link {
+      display: inline-block;
+      margin-top: 6px;
+    }
+
+    @media print {
+      html, body {
+        width: 210mm;
+        height: 297mm;
+        background: #fff;
+      }
+
+      body { padding: 0; }
+
+      .resume {
+        margin: 0;
+        box-shadow: none;
+        page-break-after: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="resume">
+    <header class="header">
+      <div class="header-icons">
+        <a class="icon-link linkedin" href="https://www.linkedin.com/in/chandanav0892/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">in</a>
+
+        <a class="icon-link portfolio-icon" href="https://chandanav0892.github.io/chandanav/" target="_blank" rel="noopener" aria-label="Portfolio" title="Portfolio">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8"></circle>
+            <path d="M4 12h16"></path>
+            <path d="M12 4c2.2 2.2 3.3 4.9 3.3 8S14.2 17.8 12 20"></path>
+            <path d="M12 4C9.8 6.2 8.7 8.9 8.7 12S9.8 17.8 12 20"></path>
+          </svg>
+        </a>
+      </div>
+
+      <h1 class="name">CHANDANA V</h1>
+      <div class="role">AI ENGINEER | FULL STACK DEVELOPER</div>
+      <p class="contact">
+        <a href="tel:+918296526668">+91 82965-26668</a> |
+        <a href="mailto:chandanav0892@gmail.com">chandanav0892@gmail.com</a>
+      </p>
+    </header>
+
+    <hr class="top-rule" />
+
+    <section class="section">
+      <h2 class="section-title">Profile Summary:</h2>
+      <p>
+        Full Stack AI Engineer with 4+ years of experience building and shipping LLM-powered products. Hands-on
+        across the full stack — from RAG pipelines and prompt engineering on the backend to React interfaces on the
+        frontend. Comfortable taking an AI feature from prototype to production. Looking for mid-level roles where I
+        can own both the AI logic and the product experience around it.
+      </p>
+    </section>
+
+    <section class="section skills">
+      <h2 class="section-title">Technical Skills:</h2>
+      <p><strong>GenAI:</strong> LLMs, RAG, Prompt Engineering, AI API Integration (OpenAI, Gemini), LangChain, MCP</p>
+      <p><strong>Frameworks &amp; Tools:</strong> LangChain, Vector Databases (FAISS / Chroma), REST APIs</p>
+      <p><strong>Programming:</strong> Python (Flask, FastAPI, FastMCP), JavaScript, ReactJS</p>
+      <p><strong>Frontend:</strong> HTML, CSS, Tailwind CSS, Bootstrap</p>
+      <p><strong>DevOps &amp; Platforms:</strong> Docker, Render, Azure (Basics), Ubuntu, macOS, Windows</p>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Experience:</h2>
+      <p class="company">INFOSYS LTD., BENGALURU, INDIA</p>
+      <p class="position">Associate Consultant | August 2022 – August 2026 | Full-Time</p>
+      <p class="client">Client: KPMG</p>
+      <ul>
+        <li>Engineered LLM-powered features end-to-end with an agile team, building AI capabilities demonstrated directly to external clients as part of a product pitch pipeline.</li>
+        <li>Built RAG-based workflows using LangChain, vector embeddings, and document ingestion to enable intelligent Q&amp;A over enterprise documents and reduce manual lookup effort.</li>
+        <li>Integrated React frontends with Flask APIs and backend AI services including OpenAI and Gemini, supporting chat interfaces, document upload flows, summarization, extraction, and Q&amp;A use cases.</li>
+      </ul>
+
+      <p class="client">Client: P&amp;G</p>
+      <ul>
+        <li>Worked on ReactJS and Python-based application development, including UI enhancements, API integration, defect fixes, and feature improvements.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Education:</h2>
+      <div class="education-block">
+        <p class="degree">MASTER OF TECHNOLOGY</p>
+        <p class="education-line">Computer Science &amp; Engineering – 2018 | Dr AIT, Bengaluru</p>
+      </div>
+      <div class="education-block">
+        <p class="degree">BACHELOR OF ENGINEERING</p>
+        <p class="education-line">Computer Science &amp; Engineering – 2014 | GSSSIETW, Mysore</p>
+      </div>
+    </section>
+
+    <section class="section certifications">
+      <h2 class="section-title">Certifications:</h2>
+      <ul>
+        <li>Fellowship Full Stack (Crio.do)</li>
+        <li>PCEP Certified (Certificate ID: Eok3.aP6P.p2oJ)</li>
+        <li>React Basics (Coursera)</li>
+        <li>HTML and CSS (Coursera)</li>
+      </ul>
+    </section>
+
+    <footer class="resume-footer">
+      <div>
+        <a class="download-link" href="ChandanaV.pdf" download>Download Resume (PDF)</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
