@@ -207,6 +207,142 @@
       margin-top: 6px;
     }
 
+
+
+    /* ---------------- MOBILE / TABLET ---------------- */
+    @media screen and (max-width: 768px) {
+      html, body {
+        width: 100%;
+        overflow-x: hidden;
+        background: #fff;
+      }
+
+      body {
+        padding: 0;
+      }
+
+      .resume {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        padding: 22px 18px 24px;
+        box-shadow: none;
+      }
+
+      .header {
+        padding-top: 42px;
+        padding-bottom: 8px;
+      }
+
+      .header-icons {
+        top: 0;
+        right: 0;
+      }
+
+      .icon-link {
+        width: 32px;
+        height: 32px;
+      }
+
+      .name {
+        font-size: clamp(26px, 8vw, 31px);
+        line-height: 1.08;
+      }
+
+      .role {
+        margin-top: 6px;
+        font-size: clamp(17px, 5vw, 21px);
+        line-height: 1.2;
+      }
+
+      .contact {
+        font-size: 14.5px;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+      }
+
+      .top-rule {
+        margin-top: 9px;
+      }
+
+      .section {
+        margin-top: 12px;
+      }
+
+      .section-title {
+        font-size: 18px;
+      }
+
+      p,
+      .company,
+      .position,
+      .client,
+      .degree,
+      .education-line,
+      li {
+        font-size: 14.5px;
+        line-height: 1.35;
+      }
+
+      ul {
+        margin-left: 18px;
+        padding-left: 14px;
+      }
+
+      .education-block {
+        margin-bottom: 9px;
+      }
+
+      .resume-footer {
+        margin-top: 18px;
+        padding-top: 8px;
+      }
+
+      .resume-footer .download-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 14px;
+        font-size: 15px;
+        line-height: 1.2;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 420px) {
+      .resume {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .header {
+        padding-top: 40px;
+      }
+
+      .header-icons {
+        gap: 7px;
+      }
+
+      .contact {
+        font-size: 13.8px;
+      }
+
+      .section-title {
+        font-size: 17.5px;
+      }
+
+      p,
+      .company,
+      .position,
+      .client,
+      .degree,
+      .education-line,
+      li {
+        font-size: 14px;
+      }
+    }
+
     @media print {
       html, body {
         width: 210mm;
